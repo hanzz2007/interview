@@ -28,6 +28,7 @@ bool IsAdjacent(const vector <int> &data){
 
 	return nDiffNum <= nZeroNum;
 }
+/*
 int main(){
 	vector<int> data;
 	data.push_back(1);
@@ -39,7 +40,7 @@ int main(){
 
 	return 0;
 }
-
+*/
 /******
 解题思路：
 先对元素排序，然后再统计0出现的次数与相邻元素之间间隔元素数。如果零出现的个数大于间隔的元素数，则表示可以，否则不可以
