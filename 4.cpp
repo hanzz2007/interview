@@ -1,3 +1,6 @@
+/*
+实现两个整数的除法，要求不能用除法符号
+*/
 #include <iostream>
 using namespace std;
 
@@ -42,3 +45,7 @@ int main(){
 
 	return 0;
 }
+
+/*
+解法：用移位运算符，缩小范围，然后采用遍历即可。
+*/
