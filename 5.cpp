@@ -71,23 +71,23 @@ Node *GetCloset(Node* pRoot){
 	}
 }
 
-int main(){
-	Node a(1);
-	Node b(2);
-	Node c(3);
-	Node d(4);
-	Node e(5);
-	Node f(6);
-	Node g(8);
-
-	d.pLeft = &c;
-	d.pRight = &f;
-	c.pLeft = &a;
-	c.pRight = &b;
-	f.pLeft = &e;
-	f.pRight = &g;
-
-	GetCloset(&d);
-
-	return 0;
-}
+//int main(){
+//	Node a(1);
+//	Node b(2);
+//	Node c(3);
+//	Node d(4);
+//	Node e(5);
+//	Node f(6);
+//	Node g(8);
+//
+//	d.pLeft = &c;
+//	d.pRight = &f;
+//	c.pLeft = &a;
+//	c.pRight = &b;
+//	f.pLeft = &e;
+//	f.pRight = &g;
+//
+//	GetCloset(&d);
+//
+//	return 0;
+//}
