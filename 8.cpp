@@ -65,31 +65,31 @@ Node* ReverseK(Node *pHead, int k){
 	return pFinalHead;
 }
 
-int main(){
-	Node a(1);
-	Node b(2);
-	Node c(3);
-	Node d(4);
-	Node e(5);
-	Node f(6);
-	Node g(7);
-	Node h(8);
-	Node i(9);
-	Node j(10);
-	Node k(11);
-
-	a.pNext = &b;
-	b.pNext = &c;
-	c.pNext = &d;
-	d.pNext = &e;
-	e.pNext = &f;
-	f.pNext = &g;
-	g.pNext = &h;
-	h.pNext = &i;
-	i.pNext = &j;
-	j.pNext = &k;
-
-	Node *p = ReverseK(&a, 3);
-	return 0;
-
-}
+//int main(){
+//	Node a(1);
+//	Node b(2);
+//	Node c(3);
+//	Node d(4);
+//	Node e(5);
+//	Node f(6);
+//	Node g(7);
+//	Node h(8);
+//	Node i(9);
+//	Node j(10);
+//	Node k(11);
+//
+//	a.pNext = &b;
+//	b.pNext = &c;
+//	c.pNext = &d;
+//	d.pNext = &e;
+//	e.pNext = &f;
+//	f.pNext = &g;
+//	g.pNext = &h;
+//	h.pNext = &i;
+//	i.pNext = &j;
+//	j.pNext = &k;
+//
+//	Node *p = ReverseK(&a, 3);
+//	return 0;
+//
+//}
