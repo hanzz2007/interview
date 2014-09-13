@@ -57,24 +57,24 @@ void SpiralPrint(Node * root){
 		}
 	}
 }
-
-int main(){
-	Node a(1);
-	Node b(2);
-	Node c(3);
-	Node d(4);
-	Node e(5);
-	Node f(6);
-	Node g(7);
-	
-	a.pLeft = &b;
-	a.pRight = &c;
-	b.pLeft = &d;
-	b.pRight = &e;
-	c.pLeft = &f;
-	c.pRight = &g;
-
-	SpiralPrint(&a);
-
-	return 0;
-}
+//
+//int main(){
+//	Node a(1);
+//	Node b(2);
+//	Node c(3);
+//	Node d(4);
+//	Node e(5);
+//	Node f(6);
+//	Node g(7);
+//	
+//	a.pLeft = &b;
+//	a.pRight = &c;
+//	b.pLeft = &d;
+//	b.pRight = &e;
+//	c.pLeft = &f;
+//	c.pRight = &g;
+//
+//	SpiralPrint(&a);
+//
+//	return 0;
+//}
