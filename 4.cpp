@@ -36,15 +36,15 @@ int Dive(int x, int y){
 	}
 }
 
-int main(){
-	cout << Dive(7, 3) <<endl;
-	cout << Dive(11, 4) <<endl;
-	cout << Dive(12, 5) <<endl;
-	cout << Dive(321, 31) <<endl;
-
-
-	return 0;
-}
+//int main(){
+//	cout << Dive(7, 3) <<endl;
+//	cout << Dive(11, 4) <<endl;
+//	cout << Dive(12, 5) <<endl;
+//	cout << Dive(321, 31) <<endl;
+//
+//
+//	return 0;
+//}
 
 /*
 解法：用移位运算符，缩小范围，然后采用遍历即可。
