@@ -94,3 +94,8 @@
 
 16:
 	一个正整数集合，求数C使得C= A + B，而且A，B , C 均在集合中，要保证C最大
+
+17:
+	There is a binary tree of size N. All nodes are numbered between 1-N(inclusive).
+	There is a N*N integer matrix Arr[N][N], all elements are initialized to zero.
+	So for all the nodes A and B, put Arr[A][B] = 1 if A is an ancestor of B (NOT just the immediate ancestor).
