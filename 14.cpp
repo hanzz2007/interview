@@ -19,7 +19,7 @@ int CountBits(long num){
 	return result;
 }
 
-int main(){
-	CountBits(7);
-	return 0;
-}
+//int main(){
+//	CountBits(7);
+//	return 0;
+//}
