@@ -88,3 +88,6 @@
 14:
 	Given a positive integer n, count the total number of set bits in binary representation of all numbers from 1 to n                                                           
 
+
+15:
+	To find if there is any root to leaf path with specified sum in a binary tree.

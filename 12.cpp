@@ -5,19 +5,19 @@ Given two lists sorted in increasing order, create and return a new list represe
 For example, let the first linked list be 1->2->3->4->6 and second linked list be 2->4->6->8, then your function should create and return a third list as 2->4->6.                                                                     */
 /************************************************************************/
 
-struct Node
+struct Node_
 {
 	int nVal;
-	struct Node *pNext;
-	Node(int value)
+	struct Node_ *pNext;
+	Node_(int value)
 		: nVal(value)
 		, pNext(nullptr)
 	{}
 };
 
-Node *Intersection(Node *p, Node *q){
-	Node *pHead = nullptr;
-	Node *pEnd = nullptr;
+Node_ *Intersection(Node_ *p, Node_ *q){
+	Node_ *pHead = nullptr;
+	Node_ *pEnd = nullptr;
 	while(p && q){
 		if(p->nVal < q->nVal){
 			p = p->pNext;
@@ -27,12 +27,12 @@ Node *Intersection(Node *p, Node *q){
 		}
 		else{
 			if(!pHead){
-				pEnd = new Node(p->nVal);
+				pEnd = new Node_(p->nVal);
 				pHead = pEnd;
 			}
 			else
 			{
-				pEnd->pNext = new Node(p->nVal);
+				pEnd->pNext = new Node_(p->nVal);
 				pEnd = pEnd->pNext;
 			}
 			p = p->pNext;
@@ -43,15 +43,15 @@ Node *Intersection(Node *p, Node *q){
 }
 //
 //int main(){
-//	Node a(1);
-//	Node b(2);
-//	Node c(3);
-//	Node d(4);
-//	Node e(5);
+//	Node_ a(1);
+//	Node_ b(2);
+//	Node_ c(3);
+//	Node_ d(4);
+//	Node_ e(5);
 //
-//	Node f(2);
-//	Node g(4);
-//	Node h(7);
+//	Node_ f(2);
+//	Node_ g(4);
+//	Node_ h(7);
 //
 //	a.pNext = &b;
 //	b.pNext = &c;
@@ -61,7 +61,7 @@ Node *Intersection(Node *p, Node *q){
 //	f.pNext = &g;
 //	g.pNext = &h;
 //
-//	Node *p = Intersection(&a, &f);
+//	Node_ *p = Intersection(&a, &f);
 //	return 0;
 //
 //}
