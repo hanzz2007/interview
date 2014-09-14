@@ -91,3 +91,6 @@
 
 15:
 	To find if there is any root to leaf path with specified sum in a binary tree.
+
+16:
+	一个正整数集合，求数C使得C= A + B，而且A，B , C 均在集合中，要保证C最大
