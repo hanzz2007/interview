@@ -75,6 +75,8 @@
     <ClCompile Include="19.cpp" />
     <ClCompile Include="2.cpp" />
     <ClCompile Include="20.cpp" />
+    <ClCompile Include="22.cpp" />
+    <ClCompile Include="23.cpp" />
     <ClCompile Include="3.cpp" />
     <ClCompile Include="4.cpp" />
     <ClCompile Include="5.cpp" />
@@ -82,6 +84,7 @@
     <ClCompile Include="7.cpp" />
     <ClCompile Include="8.cpp" />
     <ClCompile Include="9.cpp" />
+    <ClCompile Include="21.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.rst" />

@@ -23,13 +23,9 @@ int GetMaxHeight(int height, Node *pNode){
 	int leftHeight = height;
 	int rightHeight = height;
 
-	if(pNode->pLeft){
-		leftHeight = GetMaxHeight(height + 1, pNode->pLeft);
-	}
-	if(pNode->pRight){
-		rightHeight =  GetMaxHeight(height + 1, pNode->pRight);
-	}
-	return leftHeight > rightHeight ? leftHeight : rightHeight;
+	leftHeight = GetMaxHeight(height, pNode->pLeft);
+	rightHeight =  GetMaxHeight(height, pNode->pRight);
+	return (leftHeight > rightHeight ? leftHeight : rightHeight) + 1;
 }
 
 //int main(){
@@ -43,6 +39,6 @@ int GetMaxHeight(int height, Node *pNode){
 //	b.pLeft = &d;
 //	b.pRight = &e;
 //	d.pLeft = &c;
-//	int k = GetMaxHeight(1, &a);
+//	int k = GetMaxHeight(0, &a);
 //	return 0;
 //}

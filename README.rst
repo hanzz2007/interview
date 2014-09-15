@@ -108,3 +108,10 @@
 
 20:
 	Write a C Program to Find the Maximum Depth or Height of a Tree
+21:
+	Write a C program to Delete a Tree 
+22:
+	Write an Efficient Function to Convert a Binary Tree into its Mirror Tree
+23:
+	If you are given two traversal sequences, can you construct the binary tree?
+	给你中序和先序，求出二叉树
