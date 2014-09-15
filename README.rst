@@ -105,3 +105,6 @@
 
 19:
 	Two trees are identical when they have same data and arrangement of data is also same.write a fucntion to check if two trees are indetical
+
+20:
+	Write a C Program to Find the Maximum Depth or Height of a Tree
