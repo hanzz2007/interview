@@ -87,6 +87,12 @@
     <ClCompile Include="24.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="25.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="26.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.rst">

@@ -117,3 +117,44 @@
 	给你中序和先序，求出二叉树
 24:
 	Given a binary tree, print out all of its root-to-leaf paths one per line.
+	
+25:
+	Given root of binary search tree and K as input, find K-th smallest element in BST
+
+26:
+	Question: Given a binary tree, find out if the tree can be folded or not.
+
+	A tree can be folded if left and right subtrees of the tree are structure wise mirror image of each other. An empty tree is considered as foldable.
+
+	Consider the below trees:
+	(a) and (b) can be folded.
+	(c) and (d) cannot be folded.
+
+	(a)
+	  10
+	/    \
+	7      15
+	 \    /
+	 9  11
+
+	(b)
+	10
+	/  \
+	7    15
+	/      \
+	9       11
+
+	(c)
+	10
+	/  \
+	7   15
+	/    /
+	5   11
+
+	(d)
+
+	10
+	/   \
+	7     15
+	/  \    /
+	9   10  12

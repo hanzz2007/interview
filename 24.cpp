@@ -5,11 +5,11 @@
 #include <vector>
 #include <iostream>
 using namespace std;
-struct mNode{
+struct Node{
 	int nVal;
-	mNode *pLeft;
-	mNode *pRight;
-	mNode(int nValue)
+	Node *pLeft;
+	Node *pRight;
+	Node(int nValue)
 		: nVal(nValue)
 		, pLeft(nullptr)
 		, pRight(nullptr)
@@ -17,7 +17,7 @@ struct mNode{
 	}
 };
 
-void PrintAllPath(vector<int> &pathVec, mNode *pNode){
+void PrintAllPath(vector<int> &pathVec, Node *pNode){
 	pathVec.push_back(pNode->nVal);
 	//р╤вс╫з╣Ц
 	if(!pNode->pLeft && !pNode->pRight){
@@ -38,11 +38,11 @@ void PrintAllPath(vector<int> &pathVec, mNode *pNode){
 }
 
 //int main(){
-//	mNode *a = new mNode(2);
-//	mNode *b = new mNode(1);
-//	mNode *c = new mNode(0);
-//	mNode *d = new mNode(4);
-//	mNode *e = new mNode(3);
+//	Node *a = new Node(2);
+//	Node *b = new Node(1);
+//	Node *c = new Node(0);
+//	Node *d = new Node(4);
+//	Node *e = new Node(3);
 //
 //	a->pLeft = b;
 //	b->pLeft = d;
