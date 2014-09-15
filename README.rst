@@ -61,23 +61,6 @@
 	}
 	Initially, all the pNextRight pointers point to garbage values. Your function should set these pointers to point next pRight for each pNode.
 
-	Example
-
-	Input Tree
-	A
-	/ \
-	B   C
-	/ \   \
-	D   E   F
-
-
-	Output Tree
-	A--->NULL
-	/ \
-	B-->C-->NULL
-	/ \   \
-	D-->E-->F-->NULL
-
 12:
 	Given two lists sorted in increasing order, create and return a new list representing the intersection of the two lists. The new list should be made with its own memory ¡ª the original lists should not be changed.
 	For example, let the first linked list be 1->2->3->4->6 and second linked list be 2->4->6->8, then your function should create and return a third list as 2->4->6.                                                   
@@ -125,36 +108,3 @@
 	Question: Given a binary tree, find out if the tree can be folded or not.
 
 	A tree can be folded if left and right subtrees of the tree are structure wise mirror image of each other. An empty tree is considered as foldable.
-
-	Consider the below trees:
-	(a) and (b) can be folded.
-	(c) and (d) cannot be folded.
-
-	(a)
-	  10
-	/    \
-	7      15
-	 \    /
-	 9  11
-
-	(b)
-	10
-	/  \
-	7    15
-	/      \
-	9       11
-
-	(c)
-	10
-	/  \
-	7   15
-	/    /
-	5   11
-
-	(d)
-
-	10
-	/   \
-	7     15
-	/  \    /
-	9   10  12
