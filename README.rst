@@ -51,15 +51,15 @@
 	Write a function to print spiral order traversal of a tree.
 
 11:
-	Write a function to connect all the adjacent nodes at the same level in a binary tree. Structure of the given Binary Tree node is like following.
+	Write a function to connect all the adjacent nodes at the same level in a binary tree. Structure of the given Binary Tree pNode is like following.
 
-	struct node{
+	struct pNode{
 		int data;
-		struct node* pLeft;
-		struct node* pRight;
-		struct node* pNextRight;  
+		struct pNode* pLeft;
+		struct pNode* pRight;
+		struct pNode* pNextRight;  
 	}
-	Initially, all the pNextRight pointers point to garbage values. Your function should set these pointers to point next pRight for each node.
+	Initially, all the pNextRight pointers point to garbage values. Your function should set these pointers to point next pRight for each pNode.
 
 	Example
 
@@ -99,3 +99,6 @@
 	There is a binary tree of size N. All nodes are numbered between 1-N(inclusive).
 	There is a N*N integer matrix Arr[N][N], all elements are initialized to zero.
 	So for all the nodes A and B, put Arr[A][B] = 1 if A is an ancestor of B (NOT just the immediate ancestor).
+
+18:
+	Size() function recursively calculates the size of a tree.write a function calculate the size of a tree

@@ -27,16 +27,16 @@ void Merge(vector<int> &elem1,vector<int> &elem2){
 		}
 	}
 }
-void BinTreeSearch(Node *node, vector<vector<int>> &Arr){
-	if(node->pLeft){
-		BinTreeSearch(node->pLeft, Arr);
-		Merge(Arr[node->nVal], Arr[node->pLeft->nVal]);
-		Arr[node->nVal][node->pLeft->nVal] = 1;
+void BinTreeSearch(Node *pNode, vector<vector<int>> &Arr){
+	if(pNode->pLeft){
+		BinTreeSearch(pNode->pLeft, Arr);
+		Merge(Arr[pNode->nVal], Arr[pNode->pLeft->nVal]);
+		Arr[pNode->nVal][pNode->pLeft->nVal] = 1;
 	}
-	if(node->pRight){
-		BinTreeSearch(node->pRight, Arr);
-		Merge(Arr[node->nVal], Arr[node->pRight->nVal]);
-		Arr[node->nVal][node->pRight->nVal] = 1;
+	if(pNode->pRight){
+		BinTreeSearch(pNode->pRight, Arr);
+		Merge(Arr[pNode->nVal], Arr[pNode->pRight->nVal]);
+		Arr[pNode->nVal][pNode->pRight->nVal] = 1;
 	}
 }
 

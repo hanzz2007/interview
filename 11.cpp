@@ -1,13 +1,13 @@
 /************************************************************************/
-/* Write a function to connect all the adjacent nodes at the same level in a binary tree. Structure of the given Binary Tree node is like following.
+/* Write a function to connect all the adjacent nodes at the same level in a binary tree. Structure of the given Binary Tree pNode is like following.
 
-struct node{
+struct pNode{
 int data;
-struct node* pLeft;
-struct node* pRight;
-struct node* pNextRight;  
+struct pNode* pLeft;
+struct pNode* pRight;
+struct pNode* pNextRight;  
 }
-Initially, all the pNextRight pointers point to garbage values. Your function should set these pointers to point next pRight for each node.
+Initially, all the pNextRight pointers point to garbage values. Your function should set these pointers to point next pRight for each pNode.
 
 Example
 

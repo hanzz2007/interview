@@ -17,20 +17,20 @@ struct Node{
 
 static bool bFlag = false;
 
-void BinTravel(int nSearchSum, int nCurSum, Node *node){
+void BinTravel(int nSearchSum, int nCurSum, Node *pNode){
 	//到达叶子节点
-	if(!node->pLeft && !node->pRight){
-		if(nSearchSum == nCurSum + node->nVal){
+	if(!pNode->pLeft && !pNode->pRight){
+		if(nSearchSum == nCurSum + pNode->nVal){
 			bFlag = true;
 		}
 	}
 	else{
 		//遍历整棵树来搜索
-		if(node->pLeft != nullptr){
-			BinTravel(nSearchSum, nCurSum + node->nVal, node->pLeft);
+		if(pNode->pLeft != nullptr){
+			BinTravel(nSearchSum, nCurSum + pNode->nVal, pNode->pLeft);
 		}
-		if(node->pRight != nullptr){
-			BinTravel(nSearchSum, nCurSum +  node->nVal, node->pRight);
+		if(pNode->pRight != nullptr){
+			BinTravel(nSearchSum, nCurSum +  pNode->nVal, pNode->pRight);
 		}
 	}
 }
