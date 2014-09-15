@@ -18,16 +18,13 @@ struct mNode{
 };
 
 void PrintAllPath(vector<int> &pathVec, mNode *pNode){
-	if(!pNode){
+	pathVec.push_back(pNode->nVal);
+	//叶子节点
+	if(!pNode->pLeft && !pNode->pRight){
 		for(int i = 0; i < pathVec.size(); ++i){
 			cout << pathVec[i] << '\t';
 		}
 		cout << endl;
-		return;
-	}
-	pathVec.push_back(pNode->nVal);
-	//叶子节点
-	if(!pNode->pLeft && !pNode->pRight){
 	}
 	else{
 		if(pNode->pLeft){
@@ -38,7 +35,6 @@ void PrintAllPath(vector<int> &pathVec, mNode *pNode){
 		}
 	}
 	pathVec.pop_back();
-
 }
 
 //int main(){

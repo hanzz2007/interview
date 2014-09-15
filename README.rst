@@ -115,3 +115,5 @@
 23:
 	If you are given two traversal sequences, can you construct the binary tree?
 	给你中序和先序，求出二叉树
+24:
+	Given a binary tree, print out all of its root-to-leaf paths one per line.
