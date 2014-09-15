@@ -101,4 +101,7 @@
 	So for all the nodes A and B, put Arr[A][B] = 1 if A is an ancestor of B (NOT just the immediate ancestor).
 
 18:
-	Size() function recursively calculates the size of a tree.write a function calculate the size of a tree
+	Size() function recursively calculates the size of a tree.write a function to calculate the size of a tree
+
+19:
+	Two trees are identical when they have same data and arrangement of data is also same.write a fucntion to check if two trees are indetical

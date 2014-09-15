@@ -1,10 +1,10 @@
-﻿Build started 9/15/2014 9:56:21 AM.
+﻿Build started 9/15/2014 10:13:11 AM.
      1>Project "D:\VS2012\interview\coding\coding\coding.vcxproj" on node 2 (Build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\coding.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 18.cpp
-         18.cpp
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 19.cpp
+         19.cpp
        Link:
          D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS2012\interview\coding\Debug\coding.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VS2012\interview\coding\Debug\coding.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS2012\interview\coding\Debug\coding.lib" /MACHINE:X86 Debug\1.obj
          Debug\10.obj
@@ -16,6 +16,7 @@
          Debug\16.obj
          Debug\17.obj
          Debug\18.obj
+         Debug\19.obj
          Debug\2.obj
          Debug\3.obj
          Debug\4.obj
@@ -32,4 +33,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.66
+Time Elapsed 00:00:00.88
