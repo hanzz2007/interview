@@ -108,3 +108,5 @@
 	Question: Given a binary tree, find out if the tree can be folded or not.
 
 	A tree can be folded if left and right subtrees of the tree are structure wise mirror image of each other. An empty tree is considered as foldable.
+27：
+	用O(n)的算法，实现对一组无序的字母进行从小到大排序(区分大小写)，相同的字母，小写在大写前    
