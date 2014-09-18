@@ -110,3 +110,32 @@
 	A tree can be folded if left and right subtrees of the tree are structure wise mirror image of each other. An empty tree is considered as foldable.
 27：
 	用O(n)的算法，实现对一组无序的字母进行从小到大排序(区分大小写)，相同的字母，小写在大写前    
+
+28:
+	Given an array of integers, find the first repeating element in it. We need to find the element that occurs more than once and whose index of first occurrence is smallest.
+
+	Examples:
+
+	Input:  arr[] = {10, 5, 3, 4, 3, 5, 6}
+	Output: 5 [5 is the first element that repeats]
+
+	Input:  arr[] = {6, 10, 5, 4, 9, 120, 4, 6, 10}
+	Output: 6 [6 is the first element that repeats]
+
+29:
+	Given an array of n distinct integers sorted in ascending order, write a function that returns a Fixed Point in the array, if there is any Fixed Point present in array, else returns -1. Fixed Point in an array is an index i such that arr[i] is equal to i. Note that integers in array can be negative.
+	Examples:
+	Input: arr[] = {-10, -5, 0, 3, 7}
+	Output: 3  // arr[3] == 3 
+
+	Input: arr[] = {0, 2, 5, 8, 17}
+	Output: 0  // arr[0] == 0 
+
+
+	Input: arr[] = {-10, -5, 3, 4, 7, 9}
+	Output: -1  // No Fixed Point
+
+
+30:
+	Given an array, print the Next Greater Element (NGE) for every element. 
+	The Next greater Element for an element x is the first greater element on the right side of x in array. Elements for which no greater element exist, consider next greater element as -1.

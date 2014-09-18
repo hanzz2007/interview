@@ -33,8 +33,8 @@ string Sort(const string &str){
 	return result;
  }
 
-int main(){
-	string s = "aandhdasJKHJHGHlkkjlfa";
-	string s2 = Sort(s);
-	return 0;
-}
+//int main(){
+//	string s = "aandhdasJKHJHGHlkkjlfa";
+//	string s2 = Sort(s);
+//	return 0;
+//}
