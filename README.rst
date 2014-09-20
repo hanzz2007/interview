@@ -158,3 +158,6 @@
 	Before advent of QWERTY keyboards, texts and numbers were placed on the same key. 
 	For example 2 has ¡°ABC¡± if we wanted to write anything starting with ¡®A¡¯ we need to type key 2 once. If we wanted to type ¡®B¡¯, press key 2 twice and thrice for typing ¡®C¡¯. 
 	question:input a digital array output all posibile string
+
+34£º
+	Search for an element in an array which has elements who¡¯s values are first increasing and then decreasing. (Use modified binary search)
