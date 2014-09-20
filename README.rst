@@ -139,3 +139,18 @@
 30:
 	Given an array, print the Next Greater Element (NGE) for every element. 
 	The Next greater Element for an element x is the first greater element on the right side of x in array. Elements for which no greater element exist, consider next greater element as -1.
+
+31:
+	Given an unsorted array and a number n, find if there exists a pair of elements in the array whose difference is n.
+
+	Examples:
+	Input: arr[] = {5, 20, 3, 2, 50, 80}, n = 78
+	Output: Pair Found: (2, 80)
+
+	Input: arr[] = {90, 70, 20, 80, 50}, n = 45
+	Output: No Such Pair
+
+32:
+	有一棵树，不一定是二叉树。有n个节点，其编号为0 - n-1.有一个数组A，数组的大小为n。数组的值A[i]表示节点i的父节点的id。根节点的父节点id为-1
+	给定数组A，求树的高度。
+

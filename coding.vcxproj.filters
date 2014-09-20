@@ -105,6 +105,12 @@
     <ClCompile Include="30.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="31.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.rst">
