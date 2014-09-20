@@ -54,10 +54,10 @@ static int GetSplitPos(const vector<int> &data, int beg, int end){
 		return mid;
 	}
 	if(data[mid - 1] < data[mid] && data[mid] < data[mid + 1]){
-		return GetSplitPos(data, mid, end);
+		return GetSplitPos(data, mid + 1, end);
 	}
 	if(data[mid - 1] > data[mid] && data[mid] > data[mid + 1]){
-		return GetSplitPos(data, beg, mid);
+		return GetSplitPos(data, beg, mid - 1);
 	}
 }
 
@@ -71,13 +71,13 @@ int Find(const vector<int> &data, int key){
 	return result;
 }
 
-//int main(){
-//	int n[] = {1,4,2};
-//	vector<int> data;
-//	for(int i = 0; i < sizeof(n) / sizeof(n[0]); ++i){
-//		data.push_back(n[i]);
-//	}
-//
-//	int k = Find(data,2);
-//	return 0;
-//}
+int main(){
+	int n[] = {1,4,2};
+	vector<int> data;
+	for(int i = 0; i < sizeof(n) / sizeof(n[0]); ++i){
+		data.push_back(n[i]);
+	}
+
+	int k = Find(data,2);
+	return 0;
+}
