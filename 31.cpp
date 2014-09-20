@@ -39,14 +39,14 @@ void GetPair(const vector<int> &data,int k, pair<int, int> &result){
 	}
 }
 
-int main(){
-	int n[] = {5, 20, 3, 2, 50, 80};
-	vector<int> data;
-	for(int i = 0; i < sizeof(n) / sizeof(n[0]); ++i){
-		data.push_back(n[i]);
-	}
-
-	pair<int, int> result;
-	GetPair(data, 78, result);
-	return 0;
-}
+//int main(){
+//	int n[] = {5, 20, 3, 2, 50, 80};
+//	vector<int> data;
+//	for(int i = 0; i < sizeof(n) / sizeof(n[0]); ++i){
+//		data.push_back(n[i]);
+//	}
+//
+//	pair<int, int> result;
+//	GetPair(data, 78, result);
+//	return 0;
+//}

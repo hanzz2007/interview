@@ -154,3 +154,7 @@
 	有一棵树，不一定是二叉树。有n个节点，其编号为0 - n-1.有一个数组A，数组的大小为n。数组的值A[i]表示节点i的父节点的id。根节点的父节点id为-1
 	给定数组A，求树的高度。
 
+33:
+	Before advent of QWERTY keyboards, texts and numbers were placed on the same key. 
+	For example 2 has “ABC” if we wanted to write anything starting with ‘A’ we need to type key 2 once. If we wanted to type ‘B’, press key 2 twice and thrice for typing ‘C’. 
+	question:input a digital array output all posibile string

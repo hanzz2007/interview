@@ -1,11 +1,12 @@
-﻿Build started 9/20/2014 9:44:39 AM.
+﻿Build started 9/20/2014 3:12:05 PM.
      1>Project "D:\VS2012\interview\coding\coding\coding.vcxproj" on node 2 (Build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\coding.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 31.cpp
-         31.cpp
-     1>d:\vs2012\interview\coding\coding\31.cpp(21): warning C4018: '<' : signed/unsigned mismatch
+         D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 34.cpp
+         34.cpp
+     1>d:\vs2012\interview\coding\coding\34.cpp(42): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\vs2012\interview\coding\coding\34.cpp(43): warning C4018: '<' : signed/unsigned mismatch
        Link:
          D:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS2012\interview\coding\Debug\coding.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VS2012\interview\coding\Debug\coding.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS2012\interview\coding\Debug\coding.lib" /MACHINE:X86 Debug\1.obj
          Debug\10.obj
@@ -31,6 +32,8 @@
          Debug\30.obj
          Debug\31.obj
          Debug\32.obj
+         Debug\33.obj
+         Debug\34.obj
          Debug\4.obj
          Debug\5.obj
          Debug\6.obj
@@ -47,4 +50,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.51
+Time Elapsed 00:00:03.44
